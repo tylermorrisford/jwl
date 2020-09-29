@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h3 className="title">
-          About JWL Strategies 
+          About JWL 
         </h3>
         <h5 className="description">
           established 2017 &#9650; jacqueline landry, principal
