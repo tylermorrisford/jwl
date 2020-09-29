@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>JWL Strategies</title>
+        <title>About JWL</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h3 className="title">
-          JWL Strategies 
+          About JWL Strategies 
         </h3>
         <h5 className="description">
           established 2017 &#9650; jacqueline landry, principal
@@ -20,15 +20,15 @@ export default function Home() {
 
         <div className="grid">
           <div className="card">
-            <h3>Consulting Services &rarr;</h3>
-            <p>specializing in strategic planning, operations, marketing, event management, and business development.</p>
+            <h3>Our Principal &rarr;</h3>
+            <p>A highly experienced Operations Manager who has demonstrated the ability to lead diverse teams domestically and abroad. Strong technical, organizational, and operational qualifications with a track record of more than 10 years of hands-on experience in strategic planning, project management, budget administration and revenue generation, large-scale contract negotiations, and data systems administration.</p>
           </div>
 
         </div>
           <div>
             <a className="links" href="https://www.linkedin.com/in/jacqueline-landry-0457504/">LinkedIn</a>
             {" "}<a className="links" href="mailto:jackielandry@gmail.com">Contact</a>
-            {" "}<span className="links"><Link href="/about"><a>About</a></Link></span>
+            {" "}<span className="links"><Link href="/"><a>Home</a></Link></span>
           </div>
       </main>
 
@@ -53,10 +53,11 @@ export default function Home() {
           background: -o-linear-gradient(45deg, rgba(255, 0, 89, 1) 0%, rgba(0, 179, 255, 1) 33%, rgba(255, 0, 89, 1) 66%, rgba(0, 179, 255, 1) 100%);
           background: linear-gradient(45deg, rgba(255, 0, 89, 1) 0%, rgba(0, 179, 255, 1) 33%, rgba(255, 0, 89, 1) 66%, rgba(0, 179, 255, 1) 100%);
           background-size: 400% 400%;
-          -webkit-animation: gradientBg 20s linear infinite;
-          -moz-animation: gradientBg 20s linear infinite;
-          animation: gradientBg 20s linear infinite;
+          -webkit-animation: gradientBg 30s linear infinite;
+          -moz-animation: gradientBg 30s linear infinite;
+          animation: gradientBg 30s linear infinite;
         }
+
 
         @-webkit-keyframes gradientBg {
           0% {
@@ -150,7 +151,7 @@ export default function Home() {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-          max-width: 800px;
+          max-width: 1000px;
           margin-top: 2rem;
           margin-bottom: 2rem;
         }
