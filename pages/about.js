@@ -23,7 +23,6 @@ export default function Home() {
             <h3>Our Principal &rarr;</h3>
             <p>A highly experienced Operations Manager who has demonstrated the ability to lead diverse teams domestically and abroad. Strong technical, organizational, and operational qualifications with a track record of more than 10 years of hands-on experience in strategic planning, project management, budget administration and revenue generation, large-scale contract negotiations, and data systems administration.</p>
           </div>
-
         </div>
           <div>
             <a className="links" href="https://www.linkedin.com/in/jacqueline-landry-0457504/">LinkedIn</a>
